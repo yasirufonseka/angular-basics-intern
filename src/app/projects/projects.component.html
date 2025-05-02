@@ -1,3 +1,10 @@
+<p>page works</p>
+
 <div >
-<app-card-component *ngFor="let project of projects"  [name]="project.name" [description]="project.description"></app-card-component>
+<app-card-component 
+*ngFor="let project of projects; "  
+[name]="project.name" 
+[description]="project.description" >
+
+</app-card-component>
 </div>
