@@ -1,14 +1,17 @@
-import { Component, input, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-card-component',
   imports: [],
   templateUrl: './card-component.component.html',
-  styleUrl: './card-component.component.css'
+  styleUrl: './card-component.component.css',
+  standalone:true
 })
 export class CardComponentComponent {
   
-  @Input() name:String =''  ;
- @Input() description:String ='' ;
+ @Input() name:string='';
+ @Input() description:string='';
+ @Input() link:any;
+ @Input() image:any;
 
 }

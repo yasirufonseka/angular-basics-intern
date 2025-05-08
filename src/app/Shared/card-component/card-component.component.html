@@ -1,8 +1,12 @@
-<div class="card text-center mb-3" style="width: 18rem;">
+<div>
+  <div class="card cardstyle" >
+    <div class="imagecontainer">
+    <img [src]='image' class="card-img-top image" alt="...">
+  </div>
     <div class="card-body">
-      <h5 class="card-title" >{{name}}</h5>
-      <p class="card-text"></p>
-      
+      <h5 class="card-title">{{name}}</h5>
+      <p class="card-text">{{description}}</p>
+      <a [href]='link' class="btn btn-primary">learn more</a>
     </div>
   </div>
-  
+</div>
