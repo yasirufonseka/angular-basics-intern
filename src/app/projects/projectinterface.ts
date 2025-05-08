@@ -1,4 +1,6 @@
 export interface Projectinterface {
-    name:string,
-    description:string ;
+    name:string;
+    description?:any;
+    link:any;
+    image:any;
 }

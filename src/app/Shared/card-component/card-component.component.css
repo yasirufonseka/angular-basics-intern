@@ -1,0 +1,23 @@
+.cardstyle {
+   height: 520px;
+   width: 20rem;
+   margin: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: justify;
+   
+
+}
+.imagecontainer{
+    margin: 10px;
+    height:150px ;
+}
+.image{
+    width: 150px;
+    height: auto;
+    margin: 10px;
+    object-fit: fill;
+    
+
+}
